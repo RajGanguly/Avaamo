@@ -1,0 +1,26 @@
+<div class= 'row'>
+	Listing all events
+	<div>
+		 <%=text_field_tag "start_date", params[:start_date] || (Date.today - 1.months), class: "form-control datepicker floatingInput" %>
+	</div>
+</div>	
+
+
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+  </tbody>
+</table>    
