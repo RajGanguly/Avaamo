@@ -1,23 +1,25 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Event Manager APP
 
-Things you may want to cover:
+Objectives:
 
-* Ruby version
+- To list users based on events for a time period
 
-* System dependencies
+- To list events based on a given date range
 
-* Configuration
 
-* Database creation
+Things done:
 
-* Database initialization
+- Importing Data from CSV files to rails models
 
-* How to run the test suite
+- Identifying patterns inside csv to sanitize data
 
-* Services (job queues, cache servers, search engines, etc.)
+- Establishing models and it's relations
 
-* Deployment instructions
+- Seed script which should work during server deployment
 
+
+Things pending to be done:
+
+- Adding UI and bootstrap components into users and events
